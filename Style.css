@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Ubunto';
+    src: url(./fonts/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'The_Bold';
+    src: url(./fonts/The_Bold_Font.ttf);
+}
+
+:root {
+    --cor-primaria: #252422;
+    --cor-secundaria: #fffcf2;
+    --cor-terciaria: #81b226;
+    --cor-hover: #403d39;
+    --fonte-primaria: 'The_Bold';
+    --fonte-secundaria: 'Ubunto';
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    margin: 0%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-hover);
+}
+
+.conteudo__texto {
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    font-size: 50px;
+}
+
+.imagens {
+padding: 1% 15% 2.5% 15%;
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+}
+
+.imagens img {
+    border-radius: 3%;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.imagens img:hover {
+    filter: grayscale(0%);
+}
+
+.rodape {
+    background-color: var(--cor-hover);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    padding: 1% 0% 1% 0%;
+    font-size: 15px;
+}

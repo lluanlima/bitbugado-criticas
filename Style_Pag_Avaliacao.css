@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Ubunto';
+    src: url(./fonts/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'The_Bold';
+    src: url(./fonts/The_Bold_Font.ttf);
+}
+
+:root {
+    --cor-primaria: #252422;
+    --cor-secundaria: #fffcf2;
+    --cor-terciaria: #81b226;
+    --cor-hover: #403d39;
+    --fonte-primaria: 'The_Bold';
+    --fonte-secundaria: 'Ubunto';
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    margin: 0%;
+}
+
+
+.cabecalho {
+    background-color: var(--cor-hover);
+    padding: 1% 0% 1% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__links {
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 30px;
+    color: var(--cor-secundaria);
+}
+
+.cabecalho__menu__links:hover {
+    color: var(--cor-terciaria);
+}
+
+.rodape {
+    background-color: var(--cor-hover);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    padding: 1% 0% 1% 0%;
+    font-size: 15px;
+}
+
+.foto_game img {
+    border-radius: 3%;
+}
+
+.conteudo__game {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding: 5% 15% 2.5% 15%;
+}
+
+.nota {
+    padding: 0% 0% 3% 0%;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+}
+
+.textos__h1 {
+    font-family: 'The_Bold';
+    color: var(--cor-terciaria);
+}
+.textos__p1 {
+    font-family: 'Ubunto';
+    text-align: justify;
+    font-size: 16px;
+}
+
+.pag_baa {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_batman_arkham_asylum.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_bac {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_batman_arkham_city.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_bak {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_batman_arkham_knight.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_bao {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_batman_arkham_origins.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_c3 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_caesar3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_ds {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_death_stranding.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_d2r {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_diablo2_resurrected.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_d {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_doom.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_gowr {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_godofwar_ragnarok.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_gow3 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_godofwar3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_gow4 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_godofwar4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_gta1 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_GTA1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_gta2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_gta2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_gotg {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_guardians_of_the_galaxy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_hl {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_hogwarts_legacy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pag_smmm {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("./images_bg/bg_spider-man_miles_morales.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
