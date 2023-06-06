@@ -34,14 +34,22 @@ body {
     text-align: center;
     font-family: var(--fonte-primaria);
     color: var(--cor-terciaria);
-    font-size: 50px;
+    font-size: 3rem;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .imagens {
-padding: 1% 15% 2.5% 15%;
-display: flex;
-flex-wrap: wrap;
-gap: 25px;
+    padding: 0% 10% 0% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .imagens img {
@@ -60,5 +68,18 @@ gap: 25px;
     font-family: var(--fonte-secundaria);
     text-align: center;
     padding: 1% 0% 1% 0%;
-    font-size: 15px;
+    font-size: 1rem;
+}
+
+@media (max-width: 1200px) {
+    .conteudo {
+        align-items: center;
+        width: auto;
+        padding: 5%;
+    }
+    .imagens {
+        width: auto;
+        padding: 5%;
+        justify-content: center;
+    }
 }
