@@ -38,7 +38,7 @@ body {
 .cabecalho__menu__links {
     text-decoration: none;
     font-family: var(--fonte-secundaria);
-    font-size: 30px;
+    font-size: 2rem;
     color: var(--cor-secundaria);
 }
 
@@ -52,7 +52,7 @@ body {
     font-family: var(--fonte-secundaria);
     text-align: center;
     padding: 1% 0% 1% 0%;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .foto_game img {
@@ -82,7 +82,7 @@ body {
 .textos__p1 {
     font-family: 'Ubunto';
     text-align: justify;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .pag_baa {
@@ -195,4 +195,23 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 1200px) {
+    .conteudo__game {
+        flex-direction: column;
+        padding: 5% 10%;
+        align-items: center;
+        justify-content: center;
+    }
+    .cabecalho {
+        padding: 5%;
+    }
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    .textos__p1 {
+        font-size: 2rem;
+        text-align:left;
+    }
 }
