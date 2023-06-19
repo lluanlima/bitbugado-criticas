@@ -2,7 +2,8 @@
 
 ## 📜 O que é?
 Meu primeiro projeto feito sozinho utilizando HTML e CSS aprendido nas primeiras aulas da Alura.
-Link do Projeto: bitbugado-criticas.vercel.app
+
+Link do Projeto: https://www.bitbugado-criticas.vercel.app
 
 ## 💡 Tecnologias Usadas:
 
